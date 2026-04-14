@@ -1,20 +1,13 @@
-# CODSOFT Data Science Internship - Task 1
-## Titanic Survival Prediction
 
-**Objective**: Predict passenger survival using machine learning
+### Key Insights
+1. Sex, Pclass, and Title were strongest predictors
+2. Females in 1st class had highest survival rate
+3. Feature engineering Title and FamilySize improved accuracy by ~4%
 
-**Dataset**: Titanic dataset with 891 passengers
+### Libraries Used
+pandas, numpy, scikit-learn
 
-**Model Used**: Logistic Regression
-
-**Accuracy Achieved**: 82.1%
-
-### Results
-| Metric | Score |
-| --- | --- |
-| Accuracy | 0.8212 |
-| Precision | 0.82 |
-| Recall | 0.82 |
-| F1-Score | 0.82 |
-
-**Confusion Matrix:**v
+### How to Run
+1. Download `Titanic_Survival_Prediction.ipynb` and `Titanic-Dataset.csv`
+2. Open notebook in Jupyter
+3. Run all cells
